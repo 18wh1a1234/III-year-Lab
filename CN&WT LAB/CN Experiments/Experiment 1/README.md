@@ -11,4 +11,4 @@ i.character count ii.character stuffing iii.bit stuffing
 4.
 
 ### Output
-![output](Image.png)
+![output](Skill.png)
