@@ -11,4 +11,8 @@ i.character count ii.character stuffing iii.bit stuffing
 4.
 
 ### Output
-![output](output_1.png)
+![output](output_characterCount.png)
+
+![output](output_bitStuff.png)
+
+![output](output_characterStuff.png)
