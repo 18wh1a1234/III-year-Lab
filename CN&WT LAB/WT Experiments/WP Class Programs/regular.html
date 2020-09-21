@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Regular Expression</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function validation() {
+			var text = document.getElementById("tname").value
+			//console.log(text)
+			//var regx = /[789]\d{9}/g  //pattern matching for mobile number
+			//var regx = /\d{2}[A-Za-z]{2}[1,5][A,a]\d{2}[0-9A-Za-z]{2}/g //for rollno 
+			var regx = /^\d{2}[A-Za-z]{2}[1,5][A,a]\d{2}[0-9A-Za-z]{2}$/ //for one rollno
+			//var regx = /^([A-za-z0-9\._-]+).([a-z]{2, 8})(\)
+			
+			if(regx.test(text)) {
+				//alert("valid text")
+				document.getElementById("lbltext").innerHTML="valid rollno no"
+				document.getElementById("lbltext").style.visibility="visible"
+				document.getElementById("lbltext").style.color="green"
+			} else {
+				//alert("enter correct mobile no")
+				document.getElementById("lbltext").innerHTML="Invalid rollno no"
+				document.getElementById("lbltext").style.visibility="visible"
+				document.getElementById("lbltext").style.color="red"
+			}
+		}
+	</script>
+	<form action="message.html">
+			<input id="tname" type="text" placeholder="Enter text"/>
+			<br>
+			<label id="lbltext" style="color: #ff0000; visibility: hidden;">Invalid text</label>
+			<br>
+			<button onclick="validation()" type="button">Submit</button>
+	</form>
+</body>
+</html>
