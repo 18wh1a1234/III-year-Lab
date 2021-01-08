@@ -3,7 +3,7 @@
 ## Aim of the Experiment
 Write a C program by taking an example subnet of hosts and obtain a broadcast tree for the subnet.
 
-### Step by step procedure 
+### step by step procedure of the experiment
 #### Broadcast tree
 A broadcast sends a message from a specified root processor to all other processors.
 
@@ -11,4 +11,5 @@ Select any edge of minimal value that is not a loop. This is the first edge of T
 
 
 ### Output
-[!output](BoardCastTree_output.png)
+#### BoardCast Tree
+![output](BoardCastTree_output.png)
