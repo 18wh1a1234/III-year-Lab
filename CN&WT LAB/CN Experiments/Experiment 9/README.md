@@ -22,5 +22,5 @@ Step 8: Stop
 
 ### Output
 #### Frame Sorting in Buffers
-![output](Encryption&Decryption_output.png)
+![output](FrameSortingInBuffer_output.png)
 
