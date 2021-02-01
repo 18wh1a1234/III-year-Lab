@@ -16,5 +16,5 @@ Step 5: Repeat the process of transmission until all packets are transmitted. (R
 
 Step 6: Stop
 
-#### Intense Scan
+#### Leaky Bucket Algorithm
 ![output](LeakyBucket_output.png)
